@@ -1,4 +1,4 @@
-# Pan_Tompkins Algorithm with Python
+# Pan Tompkins Algorithm with Python
 
 The electrocardiogram (ECG or EKG) is the recording of the heart electrical activity (voltage). 
 A normal rhythm ECG is composed of wave segments identified as: P-wave , QRS-complex, T-wave
