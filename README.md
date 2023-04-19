@@ -1,10 +1,11 @@
 # Pan Tompkins Algorithm with Python
 
 The electrocardiogram (ECG or EKG) is the recording of the heart electrical activity (voltage). 
-A normal rhythm ECG is composed of wave segments identified as: P-wave , QRS-complex, T-wave
-and U-wave; each of these gives important information about the heart. Ih the QRS-complex, the
-R-peak is the wave with the the greatest amplitude; identifying R-peaks,and using the time
-interval between each one it is possible to calculate the heart rate, and detect arrhythmias.
+A normal rhythm ECG is composed of wave segments identified as: P-wave, QRS-complex, T-wave
+and U-wave. Each of these gives important information about the heart, for example, the R-peak
+(in the QRS-complex) is the wave with the the greatest amplitude and correspond to Ventricular
+Depolarization; identifying R-peaks,and using the time interval between each one it is possible
+to calculate the heart rate, and detect arrhythmias.
 
 The Pan-Tompinks algorithm is commonly used to detect R-peaks and compute heart rate. In this work we
 implement the algorithm in Python, with the following general scheme: we start re-sampling ECG signals,
